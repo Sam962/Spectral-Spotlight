@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -34,7 +34,14 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},},
+    {"id":{"name":"spr_tempBox","path":"sprites/spr_tempBox/spr_tempBox.yy",},},
+    {"id":{"name":"obj_testbox","path":"objects/obj_testbox/obj_testbox.yy",},},
+    {"id":{"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},},
+    {"id":{"name":"spr_tempBeam","path":"sprites/spr_tempBeam/spr_tempBeam.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
+    {"id":{"name":"obj_beam","path":"objects/obj_beam/obj_beam.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

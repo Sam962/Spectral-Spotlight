@@ -16,5 +16,12 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_battery","order":3,"path":"objects/obj_battery/obj_battery.yy",},
+    {"name":"spr_tempBox","order":1,"path":"sprites/spr_tempBox/spr_tempBox.yy",},
+    {"name":"obj_testbox","order":1,"path":"objects/obj_testbox/obj_testbox.yy",},
+    {"name":"spr_battery","order":3,"path":"sprites/spr_battery/spr_battery.yy",},
+    {"name":"spr_tempBeam","order":2,"path":"sprites/spr_tempBeam/spr_tempBeam.yy",},
+    {"name":"obj_beam","order":2,"path":"objects/obj_beam/obj_beam.yy",},
+  ],
 }
