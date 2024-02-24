@@ -23,7 +23,12 @@ if (is_flashlight_on) {
     var mouse_angle = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y) - 90;
 
     // Shrink the beam as time goes on
-    beam_scale -= 0.0005; 
+    beam_scale -= 0.005; 
+	if (beam_scale <= 0){
+		beam_scale = 0;
+		is_flashlight_on = false    //if the flashlight runs out of battery, it's set to off
+	} //While having an empty flashlight while colliding with th
+	
 
     // Put the beam on top or other objects will not be obscured by darkness
     depth = -.01;  //luke has it set to -100

@@ -6,6 +6,8 @@
 
 surf = -1;
 
+
+
 // Create Event of obj_beam
 is_flashlight_on = false;
 
