@@ -29,9 +29,15 @@ if (is_flashlight_on) {
     depth = -.01;  //luke has it set to -100
 
     gpu_set_blendmode(bm_subtract);
-    draw_sprite_ext(spr_tempBeam, 0, obj_player.x, obj_player.y, beam_scale, beam_scale, mouse_angle, c_white, 1);
+	obj_beam.x = obj_player.x;
+	obj_beam.y = obj_player.y;
+	obj_beam.image_angle = mouse_angle;
+	obj_beam.image_xscale = beam_scale
+	obj_beam.image_yscale = beam_scale
+	  
+    draw_sprite_ext(obj_beam.sprite_index, 0, obj_player.x, obj_player.y, beam_scale, beam_scale, mouse_angle, c_white, 1);
     gpu_set_blendmode(bm_normal);
-
+	
    
 }
 
