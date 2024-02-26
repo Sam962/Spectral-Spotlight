@@ -15,7 +15,7 @@ draw_clear_alpha(c_black, .50);  // Draw darkness onto the surface
 
 
 
-if (is_flashlight_on) {
+if (is_flashlight_on and instance_exists(obj_player)) {
    
 
     // Get mouse angle. 
@@ -23,20 +23,22 @@ if (is_flashlight_on) {
     var mouse_angle = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y) - 90;
 
     // Shrink the beam as time goes on
-    beam_scale -= 0.0005; 
+    beam_scale -= 0.005; 
 
     // Put the beam on top or other objects will not be obscured by darkness
     depth = -.01;  //luke has it set to -100
 
-    gpu_set_blendmode(bm_subtract);
-	obj_beam.x = obj_player.x;
-	obj_beam.y = obj_player.y;
-	obj_beam.image_angle = mouse_angle;
-	obj_beam.image_xscale = beam_scale
-	obj_beam.image_yscale = beam_scale
+	if (beam_scale >= 0){
+	    gpu_set_blendmode(bm_subtract);
+		obj_beam.x = obj_player.x;
+		obj_beam.y = obj_player.y;
+		obj_beam.image_angle = mouse_angle;
+		obj_beam.image_xscale = beam_scale
+		obj_beam.image_yscale = beam_scale
 	  
-    draw_sprite_ext(obj_beam.sprite_index, 0, obj_player.x, obj_player.y, beam_scale, beam_scale, mouse_angle, c_white, 1);
-    gpu_set_blendmode(bm_normal);
+	    draw_sprite_ext(obj_beam.sprite_index, 0, obj_player.x, obj_player.y, beam_scale, beam_scale, mouse_angle, c_white, 1);
+	    gpu_set_blendmode(bm_normal);
+	}
 	
    
 }
