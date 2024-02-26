@@ -38,7 +38,7 @@ if (is_flashlight_on) {
     gpu_set_blendmode(bm_normal);
 
    
-}
+} 
 
   surface_reset_target();
   draw_surface(surf, 0, 0);

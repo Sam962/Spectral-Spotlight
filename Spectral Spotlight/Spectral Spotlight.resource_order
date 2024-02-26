@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_enemy1","order":14,"path":"objects/obj_enemy1/obj_enemy1.yy",},
     {"name":"spr_tempGobackRoom1","order":7,"path":"sprites/spr_tempGobackRoom1/spr_tempGobackRoom1.yy",},
     {"name":"obj_gotoHallway1","order":4,"path":"objects/obj_gotoHallway1/obj_gotoHallway1.yy",},
     {"name":"obj_battery","order":3,"path":"objects/obj_battery/obj_battery.yy",},
@@ -34,6 +35,7 @@
     {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
     {"name":"obj_button_parent","order":5,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"obj_button_play","order":6,"path":"objects/obj_button_play/obj_button_play.yy",},
+    {"name":"Ghosts","order":10,"path":"sprites/Ghosts/Ghosts.yy",},
     {"name":"obj_button_quit","order":8,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_button_controls","order":9,"path":"objects/obj_button_controls/obj_button_controls.yy",},
     {"name":"obj_wall","order":10,"path":"objects/obj_wall/obj_wall.yy",},

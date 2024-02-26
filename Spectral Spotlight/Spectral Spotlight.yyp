@@ -34,7 +34,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"spr_tempGobackRoom1","path":"sprites/spr_tempGobackRoom1/spr_tempGobackRoom1.yy",},},
     {"id":{"name":"obj_gotoHallway1","path":"objects/obj_gotoHallway1/obj_gotoHallway1.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
@@ -55,6 +55,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
+    {"id":{"name":"Ghosts","path":"sprites/Ghosts/Ghosts.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
     {"id":{"name":"obj_button_controls","path":"objects/obj_button_controls/obj_button_controls.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
