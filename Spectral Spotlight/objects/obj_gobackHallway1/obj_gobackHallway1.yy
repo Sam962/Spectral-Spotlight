@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tempNextRoom",
+  "name": "obj_gobackHallway1",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempNextRoom",
-    "path": "sprites/spr_tempNextRoom/spr_tempNextRoom.yy",
+    "name": "spr_GotoPrev",
+    "path": "sprites/spr_GotoPrev/spr_GotoPrev.yy",
   },
   "spriteMaskId": null,
   "visible": true,
