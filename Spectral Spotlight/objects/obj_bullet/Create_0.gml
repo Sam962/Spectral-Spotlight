@@ -3,7 +3,5 @@
 
 if (instance_exists(obj_player)){
 	direction = point_direction(x, y, obj_player.x, obj_player.y);
-} else {
-	// Stop ghost movement when player isn't present
-	speed = 0;
 }
+speed = 2
