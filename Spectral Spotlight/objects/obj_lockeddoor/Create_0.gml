@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-my_speed = 10; //movement speed variable of 4
+alarm[0] = room_speed * 5; // Set the alarm to trigger after 5 seconds
+
+
+
+
 

@@ -14,7 +14,7 @@ var _down = keyboard_check(ord("S"));
 var _xinput = _right - _left;
 var _yinput = _down - _up;
 
-// Store the intended position based on input
+// stores the intended position based on input
 var default_x = x + _xinput * my_speed;
 var default_y = y + _yinput * my_speed;
 
@@ -32,8 +32,13 @@ if (!vertical_collision) {
 
 
 
+
+
+
 if (mouse_check_button_pressed(mb_left)) {
     // Toggle flashlight
     obj_beam.is_flashlight_on = !obj_beam.is_flashlight_on;
 	show_debug_message("CLICK!!!");
 }
+
+
