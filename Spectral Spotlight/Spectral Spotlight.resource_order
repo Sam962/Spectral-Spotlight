@@ -33,6 +33,7 @@
     {"name":"obj_testbox","order":1,"path":"objects/obj_testbox/obj_testbox.yy",},
     {"name":"obj_gotoHallway3","order":19,"path":"objects/obj_gotoHallway3/obj_gotoHallway3.yy",},
     {"name":"spr_bat","order":11,"path":"sprites/spr_bat/spr_bat.yy",},
+    {"name":"obj_scoreboardHP","order":40,"path":"objects/obj_scoreboardHP/obj_scoreboardHP.yy",},
     {"name":"mainMenu","order":2,"path":"rooms/mainMenu/mainMenu.yy",},
     {"name":"obj_gotoHallway4","order":23,"path":"objects/obj_gotoHallway4/obj_gotoHallway4.yy",},
     {"name":"obj_shooter","order":38,"path":"objects/obj_shooter/obj_shooter.yy",},
