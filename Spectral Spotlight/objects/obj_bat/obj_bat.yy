@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bat",
-    "path": "sprites/spr_bat/spr_bat.yy",
+    "name": "spr_tempBat",
+    "path": "sprites/spr_tempBat/spr_tempBat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

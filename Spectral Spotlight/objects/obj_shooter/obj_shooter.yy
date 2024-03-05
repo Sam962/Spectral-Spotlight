@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shooter",
-    "path": "sprites/spr_shooter/spr_shooter.yy",
+    "name": "spr_tempShooter",
+    "path": "sprites/spr_tempShooter/spr_tempShooter.yy",
   },
   "spriteMaskId": null,
   "visible": true,
