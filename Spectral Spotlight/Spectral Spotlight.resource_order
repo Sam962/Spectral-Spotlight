@@ -43,6 +43,7 @@
     {"name":"obj_gotoRoom3","order":17,"path":"objects/obj_gotoRoom3/obj_gotoRoom3.yy",},
     {"name":"obj_button_back","order":31,"path":"objects/obj_button_back/obj_button_back.yy",},
     {"name":"obj_winScreenText","order":32,"path":"objects/obj_winScreenText/obj_winScreenText.yy",},
+    {"name":"obj_spawner","order":41,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"loseScreen","order":11,"path":"rooms/loseScreen/loseScreen.yy",},
     {"name":"obj_gobackHallway1","order":14,"path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},
     {"name":"spr_tempCrate","order":9,"path":"sprites/spr_tempCrate/spr_tempCrate.yy",},

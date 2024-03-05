@@ -63,6 +63,7 @@
     {"id":{"name":"obj_gotoRoom3","path":"objects/obj_gotoRoom3/obj_gotoRoom3.yy",},},
     {"id":{"name":"obj_button_back","path":"objects/obj_button_back/obj_button_back.yy",},},
     {"id":{"name":"obj_winScreenText","path":"objects/obj_winScreenText/obj_winScreenText.yy",},},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"loseScreen","path":"rooms/loseScreen/loseScreen.yy",},},
     {"id":{"name":"obj_gobackHallway1","path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},},
     {"id":{"name":"spr_tempCrate","path":"sprites/spr_tempCrate/spr_tempCrate.yy",},},
