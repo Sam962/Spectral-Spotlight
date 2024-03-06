@@ -5,8 +5,8 @@
 room_goto_next()
 
 
-obj_player.x = 955;
-obj_player.y = 47;
+obj_player.x = 980;
+obj_player.y = 74;
 
 
 show_debug_message("Moved to Room3");

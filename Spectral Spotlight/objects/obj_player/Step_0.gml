@@ -1,13 +1,26 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Calculate the angle between player and mouse cursor
+var mouse_angle = point_direction(x, y, mouse_x, mouse_y);
 
-// clamp the player within the room boundaries
-x = clamp(x, sprite_width/2, room_width-sprite_width/2);
-//clamp function for vertical boundary
-y = clamp(y, sprite_height/2, room_height-sprite_height/2);
+// Sets the sprite direction based on the angle
+if (mouse_angle > 45 && mouse_angle <= 135) {
+    sprite_index = spr_playerUp; // facing down
+} else if (mouse_angle > 135 && mouse_angle <= 225) {
+       // Flip the sprite horizontally
+    sprite_index = spr_playerRight; // facing right
+	image_xscale = -1; // flips sprite horizontally
+} else if (mouse_angle > 225 && mouse_angle <= 315) {
+    sprite_index = spr_playerDown; //facing up
+} else {
+    sprite_index = spr_playerRight; //facing right
+	image_xscale = 1; //restored to default
+}
+
+// Clamping the player within the room boundaries
+x = clamp(x, sprite_width / 2, room_width - sprite_width / 2);
+y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
 
 var _left = keyboard_check(ord("A"));   //movement inputs
-var _right = keyboard_check(ord("D"));  //the 'speed' of 4 pixels has been set stored in my_speed in the Create
+var _right = keyboard_check(ord("D"));  
 var _up = keyboard_check(ord("W"));
 var _down = keyboard_check(ord("S"));
 
@@ -18,27 +31,20 @@ var _yinput = _down - _up;
 var default_x = x + _xinput * my_speed;
 var default_y = y + _yinput * my_speed;
 
-// horizontal movment and collision
- horizontal_collision = place_meeting(default_x, y, obj_wall);
+// horizontal movement and collision
+var horizontal_collision = place_meeting(default_x, y, obj_wall);
 if (!horizontal_collision) {
     x = default_x;
 }
 
 // vertical movement and collision
- vertical_collision = place_meeting(x, default_y, obj_wall);
+var vertical_collision = place_meeting(x, default_y, obj_wall);
 if (!vertical_collision) {
     y = default_y;
 }
 
-
-
-
-
-
+// Toggle flashlight
 if (mouse_check_button_pressed(mb_left)) {
-    // Toggle flashlight
     obj_beam.is_flashlight_on = !obj_beam.is_flashlight_on;
-	show_debug_message("CLICK!!!");
+    show_debug_message("CLICK!!!");
 }
-
-

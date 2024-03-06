@@ -8,9 +8,9 @@ room_goto_previous()
 
 show_debug_message("Moved back to Hallway3");
 
-// Set player position in the rightside of hallway 1
-obj_player.x = 1460;
-obj_player.y = 1020;
+// Set player position in the rightside of hallway 3
+obj_player.x = 55;
+obj_player.y = 688;
 
 
 

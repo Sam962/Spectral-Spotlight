@@ -8,7 +8,7 @@ room_goto(Room1)
 
 
 obj_player.x = 415;
-obj_player.y = 1035;
+obj_player.y = 1020;
 
 
 show_debug_message("Moved to Room1");
