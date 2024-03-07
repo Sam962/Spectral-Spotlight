@@ -78,6 +78,7 @@
     {"id":{"name":"obj_gobackHallway1","path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},},
     {"id":{"name":"spr_tempCrate","path":"sprites/spr_tempCrate/spr_tempCrate.yy",},},
     {"id":{"name":"obj_beamUpgrade","path":"objects/obj_beamUpgrade/obj_beamUpgrade.yy",},},
+    {"id":{"name":"prt_rain","path":"particles/prt_rain/prt_rain.yy",},},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
     {"id":{"name":"obj_gobackHallway3","path":"objects/obj_gobackHallway3/obj_gobackHallway3.yy",},},
     {"id":{"name":"spr_tempWall","path":"sprites/spr_tempWall/spr_tempWall.yy",},},
