@@ -91,6 +91,8 @@
     {"name":"spr_playerRight","order":17,"path":"sprites/spr_playerRight/spr_playerRight.yy",},
     {"name":"obj_lockeddoor","order":36,"path":"objects/obj_lockeddoor/obj_lockeddoor.yy",},
     {"name":"obj_button_controls","order":9,"path":"objects/obj_button_controls/obj_button_controls.yy",},
+    {"name":"obj_titleText","order":50,"path":"objects/obj_titleText/obj_titleText.yy",},
+    {"name":"obj_creditsPlayer","order":49,"path":"objects/obj_creditsPlayer/obj_creditsPlayer.yy",},
     {"name":"obj_key","order":45,"path":"objects/obj_key/obj_key.yy",},
     {"name":"blue_button00","order":5,"path":"sprites/blue_button00/blue_button00.yy",},
     {"name":"obj_button_credits","order":28,"path":"objects/obj_button_credits/obj_button_credits.yy",},
