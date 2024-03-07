@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"Hallway4","path":"rooms/Hallway4/Hallway4.yy",},},
+    {"id":{"name":"obj_shoes","path":"objects/obj_shoes/obj_shoes.yy",},},
     {"id":{"name":"obj_gotoHallway1","path":"objects/obj_gotoHallway1/obj_gotoHallway1.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -68,8 +69,10 @@
     {"id":{"name":"spr_GotoNext","path":"sprites/spr_GotoNext/spr_GotoNext.yy",},},
     {"id":{"name":"winScreen","path":"rooms/winScreen/winScreen.yy",},},
     {"id":{"name":"obj_gotoRoom3","path":"objects/obj_gotoRoom3/obj_gotoRoom3.yy",},},
+    {"id":{"name":"spr_shoes","path":"sprites/spr_shoes/spr_shoes.yy",},},
     {"id":{"name":"obj_button_back","path":"objects/obj_button_back/obj_button_back.yy",},},
     {"id":{"name":"obj_winScreenText","path":"objects/obj_winScreenText/obj_winScreenText.yy",},},
+    {"id":{"name":"spr_torch","path":"sprites/spr_torch/spr_torch.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"loseScreen","path":"rooms/loseScreen/loseScreen.yy",},},
     {"id":{"name":"obj_gobackHallway1","path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},},

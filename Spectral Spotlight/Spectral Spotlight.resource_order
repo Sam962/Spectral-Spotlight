@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Hallway4","order":8,"path":"rooms/Hallway4/Hallway4.yy",},
+    {"name":"obj_shoes","order":48,"path":"objects/obj_shoes/obj_shoes.yy",},
     {"name":"obj_gotoHallway1","order":4,"path":"objects/obj_gotoHallway1/obj_gotoHallway1.yy",},
     {"name":"Sprite10","order":16,"path":"sprites/Sprite10/Sprite10.yy",},
     {"name":"spr_tempCoin","order":14,"path":"sprites/spr_tempCoin/spr_tempCoin.yy",},
@@ -48,8 +49,10 @@
     {"name":"spr_GotoNext","order":8,"path":"sprites/spr_GotoNext/spr_GotoNext.yy",},
     {"name":"winScreen","order":9,"path":"rooms/winScreen/winScreen.yy",},
     {"name":"obj_gotoRoom3","order":17,"path":"objects/obj_gotoRoom3/obj_gotoRoom3.yy",},
+    {"name":"spr_shoes","order":23,"path":"sprites/spr_shoes/spr_shoes.yy",},
     {"name":"obj_button_back","order":31,"path":"objects/obj_button_back/obj_button_back.yy",},
     {"name":"obj_winScreenText","order":32,"path":"objects/obj_winScreenText/obj_winScreenText.yy",},
+    {"name":"spr_torch","order":24,"path":"sprites/spr_torch/spr_torch.yy",},
     {"name":"obj_spawner","order":41,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"loseScreen","order":11,"path":"rooms/loseScreen/loseScreen.yy",},
     {"name":"obj_gobackHallway1","order":14,"path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},
