@@ -24,6 +24,17 @@ var _right = keyboard_check(ord("D"));
 var _up = keyboard_check(ord("W"));
 var _down = keyboard_check(ord("S"));
 
+ 
+
+// Stop the animation when not moving - I think its better to maintain the direction
+// Faced with idle rather than always facing forward
+if (keyboard_check(ord("W")) or keyboard_check(ord("A")) or keyboard_check(ord("S")) or keyboard_check(ord("D"))){
+	image_speed = 1;	
+} else {
+	image_index = 0;
+	image_speed = 0;
+}
+
 var _xinput = _right - _left;
 var _yinput = _down - _up;
 
@@ -48,4 +59,3 @@ if (mouse_check_button_pressed(mb_left)) {
     obj_beam.is_flashlight_on = !obj_beam.is_flashlight_on;
     show_debug_message("CLICK!!!");
 }
-
