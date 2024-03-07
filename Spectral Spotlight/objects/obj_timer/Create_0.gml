@@ -8,6 +8,7 @@ tenth_sec = 0
 //begin timer
 alarm[0] = 6 //runs every 6 frames
 
+// Create Event of controller object or main game object
 
 
 

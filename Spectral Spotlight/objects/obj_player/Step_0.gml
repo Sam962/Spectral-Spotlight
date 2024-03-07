@@ -48,3 +48,4 @@ if (mouse_check_button_pressed(mb_left)) {
     obj_beam.is_flashlight_on = !obj_beam.is_flashlight_on;
     show_debug_message("CLICK!!!");
 }
+

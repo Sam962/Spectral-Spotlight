@@ -3,7 +3,7 @@
 
 tenth_sec -= 1
 
-if tenth_sec = -1 {
+if tenth_sec == -1 {
 tenth_sec = 9   //decrements seconds by one
 seconds -=1
 
@@ -13,7 +13,7 @@ seconds -=1
 
 
 
-if seconds = -1 {   //decrements minutes by one
+if seconds == -1 {   //decrements minutes by one
 seconds = 59
 minutes -=1
 
@@ -21,7 +21,7 @@ minutes -=1
 
 //stop timer at 0
 
-if !(seconds = 0 && minutes = 0 && tenth_sec = 0){
+if !(seconds == 0 && minutes == 0 && tenth_sec == 0){
 alarm[0] = 6
 
 } else {
@@ -31,3 +31,4 @@ alarm[0] = 6
 	room_goto(winScreen); // temporrary.
 
 }
+

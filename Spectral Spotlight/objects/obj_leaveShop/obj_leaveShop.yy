@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_testbox",
-  "eventList": [],
+  "name": "obj_leaveShop",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempBox",
-    "path": "sprites/spr_tempBox/spr_tempBox.yy",
+    "name": "spr_GotoShop",
+    "path": "sprites/spr_GotoShop/spr_GotoShop.yy",
   },
   "spriteMaskId": null,
   "visible": true,
