@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 can_shoot = true;
-speed = .5
+speed = 1

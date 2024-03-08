@@ -5,7 +5,7 @@ if (instance_exists(obj_key)){
 }
 
 if (instance_exists(obj_beamUpgrade)){
-	draw_text(obj_beamUpgrade.x + 200 , obj_beamUpgrade.y + 30, "Beam Upgrade: " + string(obj_beamUpgrade.price) + " Coins");
+	draw_text(obj_beamUpgrade.x - 310 , obj_beamUpgrade.y + 30, "Beam Upgrade: " + string(obj_beamUpgrade.price) + " Coins");
 }
 
 if (instance_exists(obj_shoes)){

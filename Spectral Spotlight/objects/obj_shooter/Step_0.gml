@@ -5,10 +5,9 @@
 event_inherited()
 
 
-if (instance_exists(obj_player) and can_shoot = true){
-	can_shoot = false;
-	instance_create_layer(obj_shooter.x, obj_shooter.y, "Instances", obj_bullet);
-	alarm[0] = room_speed * 1;
+if (instance_exists(obj_player) && can_shoot) {
+    can_shoot = false;
+    instance_create_layer(x, y, "Instances", obj_bullet);
+    alarm[0] = room_speed * 1;
 }
-
 
