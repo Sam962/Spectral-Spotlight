@@ -56,6 +56,7 @@
     {"name":"loseScreen","order":11,"path":"rooms/loseScreen/loseScreen.yy",},
     {"name":"obj_gobackHallway1","order":14,"path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},
     {"name":"spr_tempCrate","order":8,"path":"sprites/spr_tempCrate/spr_tempCrate.yy",},
+    {"name":"obj_itemSpawner","order":51,"path":"objects/obj_itemSpawner/obj_itemSpawner.yy",},
     {"name":"obj_beamUpgrade","order":47,"path":"objects/obj_beamUpgrade/obj_beamUpgrade.yy",},
     {"name":"prt_rain","order":23,"path":"particles/prt_rain/prt_rain.yy",},
     {"name":"obj_bat","order":37,"path":"objects/obj_bat/obj_bat.yy",},

@@ -77,6 +77,7 @@
     {"id":{"name":"loseScreen","path":"rooms/loseScreen/loseScreen.yy",},},
     {"id":{"name":"obj_gobackHallway1","path":"objects/obj_gobackHallway1/obj_gobackHallway1.yy",},},
     {"id":{"name":"spr_tempCrate","path":"sprites/spr_tempCrate/spr_tempCrate.yy",},},
+    {"id":{"name":"obj_itemSpawner","path":"objects/obj_itemSpawner/obj_itemSpawner.yy",},},
     {"id":{"name":"obj_beamUpgrade","path":"objects/obj_beamUpgrade/obj_beamUpgrade.yy",},},
     {"id":{"name":"prt_rain","path":"particles/prt_rain/prt_rain.yy",},},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
