@@ -3,6 +3,7 @@
 
 
 
+depth = -101;
 
 draw_set_font(ft_menu); //select text
 draw_text(x-100, y - 300, "GAME OVER!");

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+depth = -101;
 draw_self();
 
 draw_set_font(ft_menu) //draw button

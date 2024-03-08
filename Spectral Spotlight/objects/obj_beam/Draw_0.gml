@@ -13,6 +13,10 @@ surface_set_target(surf);
 draw_clear_alpha(c_black, .50);  // Draw darkness onto the surface
 
 
+// Setting the beam to depth -100 ensures other objects will be obscured by darkness
+// Moved outside of the if block, otherwise darkness will appear on first click
+// If the UI appears to dark, set the depth of those lower than this value.
+depth = -100;
 
 
 if (is_flashlight_on and instance_exists(obj_player)) {
@@ -24,9 +28,6 @@ if (is_flashlight_on and instance_exists(obj_player)) {
 
     // Shrink the beam as time goes on
     beam_scale -= beam_shrink_scale; 
-
-    // Put the beam on top or other objects will not be obscured by darkness
-    depth = -.01;  //luke has it set to -100
 
 	if (beam_scale >= 0){
 	    gpu_set_blendmode(bm_subtract);
