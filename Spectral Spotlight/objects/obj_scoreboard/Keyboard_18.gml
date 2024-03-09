@@ -21,6 +21,11 @@ obj_player.my_speed += 10 //speed cheat
 
 }
 
+if (keyboard_check_pressed(ord("F"))) {
+    // Freeze the ghost's speed
+    obj_ghost.speed = 0;
+    show_message("Ghost frozen!");
+}
 
 
 
