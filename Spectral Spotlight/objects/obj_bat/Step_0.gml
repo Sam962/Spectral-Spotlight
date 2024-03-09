@@ -2,7 +2,7 @@
 // You can write your code in this editor
 x = clamp(x, sprite_width/2, room_width-sprite_width/2);
 y = clamp(y, sprite_height/2, room_height-sprite_height/2);
-speed = 9;
+speed = 6;
 
 if (change_dir == true){
 	if (instance_exists(obj_player)){
@@ -14,7 +14,7 @@ if (change_dir == true){
 
 
 if (place_meeting(x, y, obj_wall)) {
-    direction = random(360);
+    direction -= 180;
 }
 
 

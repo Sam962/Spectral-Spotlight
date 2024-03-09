@@ -52,6 +52,7 @@
     {"name":"inst_1CC662F6","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6031D6F3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6F7DACA2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_F569DA0","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -119,6 +120,7 @@
         {"$GMRInstance":"","%Name":"inst_6A2ED026","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A2ED026","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.13062084,"scaleX":12.733334,"scaleY":0.36,"x":0.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_6031D6F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6031D6F3","objectId":{"name":"obj_sound_oth","path":"objects/obj_sound_oth/obj_sound_oth.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":224.0,},
         {"$GMRInstance":"","%Name":"inst_6F7DACA2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F7DACA2","objectId":{"name":"obj_sound_oth","path":"objects/obj_sound_oth/obj_sound_oth.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":96.0,},
+        {"$GMRInstance":"","%Name":"inst_F569DA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F569DA0","objectId":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":68,"SerialiseWidth":120,"TileCompressedData":[
           242,1073742078,1073742046,1073742014,1073741982,1073741950,1073741918,1073741886,1073741854,1073742014,
