@@ -3,6 +3,8 @@
 
 audio_stop_sound(snd_menu);
 
+
 if not audio_is_playing(snd_rooms){
+	audio_play_sound(snd_ghost_intro,1, false);
 	audio_play_sound(snd_rooms, 1, true)
 }

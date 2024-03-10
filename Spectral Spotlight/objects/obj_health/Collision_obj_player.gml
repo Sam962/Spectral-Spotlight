@@ -7,7 +7,7 @@ obj_player.health += 25
 obj_player.health = 100;
 
 }
-
+audio_play_sound(snd_health, 1, false)
 
 
 instance_destroy();
