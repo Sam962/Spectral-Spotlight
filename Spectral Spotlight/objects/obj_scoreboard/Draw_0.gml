@@ -8,6 +8,9 @@ if instance_exists(obj_player){
 	draw_healthbar(8, 70, 256, 100, obj_player.health, c_black, c_red, c_red, 0, true, true);
 	
 	// Coin counter
+	if (obj_timer.minutes < 1){
+	draw_set_color(c_red)
+}
 	draw_text(1650, 10, "Coins:" + string(obj_player.coins));
 
 	// If the key has been obtained, draw it in the top corner

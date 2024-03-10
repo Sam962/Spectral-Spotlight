@@ -28,7 +28,9 @@ alarm[0] = 6
 //once timer hits 0
 	instance_destroy(obj_player)
 	instance_destroy(obj_timer)
-	room_goto(winScreen); // temporrary.
+		draw_set_color(c_white)
+
+	room_goto(loseScreen); // player loses if time runs out.
 
 }
 

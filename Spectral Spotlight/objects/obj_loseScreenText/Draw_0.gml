@@ -5,6 +5,8 @@
 
 depth = -101;
 
+	draw_set_color(c_white)
+
 draw_set_font(ft_menu); //select text
 draw_text(x-100, y - 300, "GAME OVER!");
 draw_text(x - 250 , y - 200, "You were lost to the");

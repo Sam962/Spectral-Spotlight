@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 minutes = 1
-seconds = 0
+seconds = 5
 tenth_sec = 0
 
 //begin timer
