@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-price = 10;
+price = 45;

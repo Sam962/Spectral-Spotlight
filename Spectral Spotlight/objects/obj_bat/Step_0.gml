@@ -14,7 +14,7 @@ if (change_dir == true){
 
 
 if (place_meeting(x, y, obj_wall)) {
-    direction -= 180;
+    //nothing 
 }
 
 
