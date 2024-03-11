@@ -7,7 +7,7 @@ if (obj_player.coins >= obj_shoes.price){
 	instance_destroy()
 	
 	// Increase player speed
-	obj_player.my_speed = 15
+	obj_player.my_speed = 12
 	
 	// Add dash ability?
 	

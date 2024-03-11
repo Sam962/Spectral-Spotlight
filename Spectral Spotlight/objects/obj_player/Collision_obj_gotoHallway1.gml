@@ -4,7 +4,7 @@
 room_goto(Hallway1)
 
 
-obj_player.x = 53;
+obj_player.x = 80;
 obj_player.y = 509;
 
 

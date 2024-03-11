@@ -3,7 +3,7 @@
 
 
 
-for (var i = 0; i < 8; i++) {
+for (var i = 0; i < 15; i++) {
     var rand_x = irandom_range(20, room_width);
     var rand_y = irandom_range(20, room_height);
     instance_create_layer(rand_x, rand_y, "Instances", obj_crate);

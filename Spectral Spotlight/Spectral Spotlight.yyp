@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"impactcrunch01.mp3.flac","CopyToMask":-1,"filePath":"datafiles","name":"impactcrunch01.mp3.flac","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -109,6 +111,7 @@
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"winScreen","path":"rooms/winScreen/winScreen.yy",},},
     {"id":{"name":"scr_dmg","path":"scripts/scr_dmg/scr_dmg.yy",},},
+    {"id":{"name":"snd_woodBreak_mp3","path":"sounds/snd_woodBreak_mp3/snd_woodBreak_mp3.yy",},},
     {"id":{"name":"snd_beam","path":"sounds/snd_beam/snd_beam.yy",},},
     {"id":{"name":"snd_coins","path":"sounds/snd_coins/snd_coins.yy",},},
     {"id":{"name":"snd_ghost_intro","path":"sounds/snd_ghost_intro/snd_ghost_intro.yy",},},

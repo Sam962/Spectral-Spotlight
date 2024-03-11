@@ -5,7 +5,7 @@ room_goto_next()
 
 
 obj_player.x = 1453;
-obj_player.y = 60;
+obj_player.y = 63;
 
 
 show_debug_message("Moved to Hallway2");

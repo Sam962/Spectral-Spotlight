@@ -30,6 +30,7 @@ if (hp <= 0)
  
  }
 }
+audio_play_sound(snd_woodBreak_mp3, 1, false)
  instance_destroy();
 
 

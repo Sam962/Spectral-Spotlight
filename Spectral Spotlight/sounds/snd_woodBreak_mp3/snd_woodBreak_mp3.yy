@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_coins",
+  "%Name":"snd_woodBreak_mp3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.365687,
-  "name":"snd_coins",
+  "duration":0.862041,
+  "name":"snd_woodBreak_mp3",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_coins.mp3",
+  "soundFile":"snd_woodBreak_mp3.mp3",
   "type":0,
-  "volume":0.49,
+  "volume":0.65,
 }

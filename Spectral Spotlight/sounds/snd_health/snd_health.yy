@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_health.mp3",
   "type":0,
-  "volume":0.83,
+  "volume":0.4,
 }
