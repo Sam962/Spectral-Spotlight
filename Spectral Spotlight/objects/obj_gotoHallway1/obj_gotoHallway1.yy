@@ -34,5 +34,5 @@
     "path":"sprites/spr_GotoNext/spr_GotoNext.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

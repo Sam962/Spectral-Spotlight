@@ -34,5 +34,5 @@
     "path":"sprites/spr_GotoShop/spr_GotoShop.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

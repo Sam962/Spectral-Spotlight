@@ -34,5 +34,5 @@
     "path":"sprites/spr_GotoPrev/spr_GotoPrev.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
