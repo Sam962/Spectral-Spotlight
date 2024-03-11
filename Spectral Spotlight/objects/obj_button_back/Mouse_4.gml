@@ -8,7 +8,7 @@
 
 
 
-
+game_restart();
 // Inherit the parent event
 event_inherited();
 
