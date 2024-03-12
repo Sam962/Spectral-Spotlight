@@ -33,7 +33,9 @@ https://opengameart.org/content/stunning-pixel-art-rpg-tileset
 - Wood Floor by DavidRStudios (CC0 - opengameart.org)<br>
 https://opengameart.org/content/wood-floor
 
-- Battery, Beam, Candy, Coin, Enemy, and Player Sprites by Elise Machado
+- Battery, Beam, Candy, Coin, Shooter, Ghost, Crate, Bullet, and Player sprites by Elise Machado
+- Bat, Upgrade, Key, Torch, and Shoes sprites by Luke Hopson
+- Rain particles by Mitchell Yang
 
 ### Sound Effects:
 - 5 Break, Crunch Impacts by Independent.nu [Submitted by qubodup]<br>
