@@ -4,8 +4,11 @@
 Spectral Spotlight is a haunted house game created using GameMaker. Players must escape the haunted house by destroying ghosts, collecting coins, power-ups, and health packs to aid in their escape. The game offers a thrilling adventure where players navigate through spooky corridors, battling ghosts, and collecting valuable items to survive.
 
 ## Controls
-- Mouse: Aim
+- Mouse:
+  - Left-click: Toggle flashlight
+  - Right-click: Fullscreen
 - WASD: Move
+
 
 ## Objective
 Escape the haunted house by defeating ghosts and collecting coins, power-ups, and health packs.
