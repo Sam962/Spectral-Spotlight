@@ -57,6 +57,7 @@ Escape the haunted house by defeating ghosts and collecting coins, power-ups, an
 - [Wood Floor by DavidRStudios](https://opengameart.org/content/wood-floor)
 - Battery, Beam, Candy, Coin, Shooter, Ghost, Crate, Bullet, and Player sprites by Elise Machado
 - Bat, Upgrade, Key, Torch, and Shoes sprites by Luke Hopson
+- Rain particles by Mitchell Yang
 
 ### Sound Effects:
 - [5 Break, Crunch Impacts by Independent.nu](https://opengameart.org/content/5-break-crunch-impacts)
