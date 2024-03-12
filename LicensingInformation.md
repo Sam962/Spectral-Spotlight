@@ -1,7 +1,7 @@
 # Licensing Information
 
 ## Soundtrack
-- Laughing Ghost - Horror Sounds by JuliusH (*Pixabay’s Content License via CC BY)
+- Laughing Ghost - Horror Sounds by JuliusH (*Pixabay’s Content License via CC BY)<br>
 https://pixabay.com/sound-effects/laughing-ghost-horror-sounds-8293/
 
 - Scary Music Box For Spooky Scenes by UNIVERSFIELD (*Pixabay’s Content License via CC BY)
