@@ -55,6 +55,7 @@ Escape the haunted house by defeating ghosts and collecting coins, power-ups, an
 - [Pixel Art Castle Tileset by rubberduck](https://opengameart.org/content/pixel-art-castle-tileset)
 - [Stunning Pixel Art RPG Tileset by uheartbeast](https://opengameart.org/content/stunning-pixel-art-rpg-tileset)
 - [Wood Floor by DavidRStudios](https://opengameart.org/content/wood-floor)
+- Battery, Beam, Candy, Coin, Enemy, and Player Sprites by Elise Machado
 
 ### Sound Effects:
 - [5 Break, Crunch Impacts by Independent.nu](https://opengameart.org/content/5-break-crunch-impacts)
