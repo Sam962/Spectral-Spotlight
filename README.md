@@ -28,6 +28,12 @@ Escape the haunted house by defeating ghosts and collecting coins, power-ups, an
 4. Destroy ghosts to clear your path.
 5. Navigate through the haunted house and reach the exit to win.
 
+## Cheat Codes
+- Press "1" to activate infinite health cheat.
+- Press "2" to add 50 coins.
+- Press "3" to increase player speed.
+- Press "F" to freeze the ghost's speed.
+
 ## Credits
 - Producer: Sam Aldehayyat
 - Designer: M. Mitchell Yang
