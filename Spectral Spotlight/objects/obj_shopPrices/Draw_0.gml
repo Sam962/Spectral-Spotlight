@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_set_color(c_white)
 if (instance_exists(obj_key)){
-	draw_text(obj_key.x - 300, obj_key.y + 30, "ESCAPE:"+ string(obj_key.price) + " Coins");
+	draw_text(obj_key.x - 300, obj_key.y + 30, "ESCAPE: "+ string(obj_key.price) + " Coins");
 }
 
 if (instance_exists(obj_beamUpgrade)){
